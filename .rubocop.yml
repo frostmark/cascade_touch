@@ -1,0 +1,114 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'spec/fixtures/**/*'
+
+Layout/TrailingBlankLines:
+  Enabled: false
+
+Naming/AsciiIdentifiers:
+  Enabled: true
+
+Layout/AlignParameters:
+  Enabled: false
+
+Lint/EndAlignment:
+  Enabled: false
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Layout/IndentationConsistency:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: true
+
+Style/AndOr:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 40
+
+Metrics/ClassLength:
+  Max: 120
+
+Metrics/LineLength:
+  Max: 130
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/MethodLength:
+  Max: 40
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/CaseIndentation:
+  Enabled: true
+  IndentOneStep: true
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/DotPosition:
+  Enabled: true
+  EnforcedStyle: trailing
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Layout/ElseAlignment:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Layout/MultilineOperationIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Style/NumericLiterals:
+  MinDigits: 9
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Naming/PredicateName:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/TrailingCommaInLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Enabled: true
+  Exclude:
+    - 'bin/*'
