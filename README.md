@@ -1,8 +1,14 @@
 # CascadeTouch
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cascade_touch`. To experiment with that code, run `bin/console` for an interactive prompt.
+Имеем Model1, Model2, Model3, Model4 и связи между ними.
 
-TODO: Delete this and the text above, and describe your gem
+```
+Model1 has many Model2
+Model2 has many Model3
+Model3 has many Model4
+```
+
+Наша задача, обеспечить каскадное обновление updated_at на моделях верхнего уровня при изменении модели нижнего уровня. т.е. при изменении инстанса Model1 мы должны изменить updated_at у всех связанных Model2, связанных с ними Model3 и связанных с ними Model4.
 
 ## Installation
 
