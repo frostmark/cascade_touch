@@ -1,4 +1,6 @@
 # CascadeTouch
+[![Maintainability](https://api.codeclimate.com/v1/badges/a881059f3a535ddd7a14/maintainability)](https://codeclimate.com/github/markfrst/cascade_touch/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a881059f3a535ddd7a14/test_coverage)](https://codeclimate.com/github/markfrst/cascade_touch/test_coverage)
+
 
 Имеем Model1, Model2, Model3, Model4 и связи между ними.
 
