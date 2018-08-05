@@ -1,5 +1,19 @@
 require "bundler/setup"
-require "cascade_touch"
+
+require 'sqlite3'
+require 'active_record'
+
+require 'support/db/define_db'
+
+require 'support/models/application_record'
+require 'support/models/user'
+require 'support/models/book'
+require 'support/models/genre'
+require 'support/models/user_book'
+require 'support/models/author'
+
+
+require 'cascade_touch'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
